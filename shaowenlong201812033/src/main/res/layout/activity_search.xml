@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchActivity">
+    <swl.bwie.com.shaowenlong201812033.TitleBarView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <swl.bwie.com.shaowenlong201812033.WaterGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="最近搜索"
+        android:textColor="#00ff00"
+        />
+    <swl.bwie.com.shaowenlong201812033.WaterFall
+        android:id="@+id/water_fall_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清空最近搜索"
+        android:layout_gravity="center"
+        />
+    <swl.bwie.com.shaowenlong201812033.WaterGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="搜索发现"
+        android:textColor="#00ffff"
+        />
+    <swl.bwie.com.shaowenlong201812033.WaterFall
+        android:id="@+id/water_fall_hot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>
