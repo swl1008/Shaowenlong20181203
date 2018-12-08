@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7aefa5"
+    >
+
+    <com.recker.flybanner.FlyBanner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></com.recker.flybanner.FlyBanner>
+    <swl.bwie.com.mvp181205.view.RunHorse
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:background="#ff0066"
+        android:layout_marginTop="10dp"
+        android:text="这是一段很长的威武霸气的滚动的实现跑马灯效果的一段逼格很高的很有含义和涵养的文字"
+        />
+    <ListView
+        android:layout_marginTop="10dp"
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
